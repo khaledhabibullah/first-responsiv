@@ -1,0 +1,42 @@
+@media (max-width:992px) {
+    .headerSectio ul {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    } 
+    .headerSectio {
+        padding-bottom: 52px;
+        padding-top: 36px;
+    }
+}
+
+@media (max-width:768px) {
+    .headerSectio {
+        padding: 38px 0px;
+        width: 76%;
+    }
+    .webDesign1 {
+        width: 100%;
+        background: #ede7e7;
+        transition: .4s;
+        margin-top: 20px;
+        margin: 12px 20px;
+        text-align: center;
+    }
+    .webDesign1:hover {
+        background: none;
+    }
+    .sericeSection h1 {
+        border-bottom: 4px dashed #34485d;
+      
+        font-size: 30px;
+       
+    }
+}
+@media (max-width:576px) {
+    .headerSectio ul {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}
